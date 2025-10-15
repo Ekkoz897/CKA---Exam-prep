@@ -1,0 +1,31 @@
+Kubernetes (K8s) helps automate and manage containers at large scales.
+
+- Automatic scaling: Kubernetes can increase or decrease the number of containers based on CPU or memory usage.
+
+- It can deploy new versions of your app with zero downtime. Gradually replacing containers.
+
+- Self-healing: If a container or node fails, Kubernetes restarts or reschedules it automatically.
+
+- Simplified networking: Every service gets its own IP and DNS name — making container communication easy.
+
+- Built-in monitoring & logging
+
+
+WHEN SHOULD WE USE IT ?
+
+Microservices architectures — when an app has many small services that need coordination.
+
+Production systems — where uptime, load balancing, and monitoring are critical.
+
+CI/CD pipelines — to automate testing and deployment of containerized apps.
+
+
+WHEN SHOULDN'T WE USE IT ?
+
+Running a small or single app — a single Docker container is enough.
+
+Don’t need scaling — if the traffic is stable and predictable.
+
+Limited resources or budget — K8s clusters need more compute and setup time.
+
+Simple local projects or prototypes — Docker Compose is easier for development.
