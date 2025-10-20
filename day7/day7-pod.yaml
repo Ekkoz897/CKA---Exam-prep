@@ -1,0 +1,31 @@
+#yaml can have vars, lists
+#employee:
+#  name: ekkoz
+#  age: 23
+#  address: 1.7
+
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: nginx-pod-new
+#   labels:
+#     env: demo
+#     type: frontend
+# spec:
+#   containers:
+#   - name: nginx-container
+#     image: nginx
+#     ports:
+#     - containerPort: 80
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: new-podman-nginx
+  labels:
+    app: test
+    name: redis
+spec:
+  containers:
+  - image: nginx
+    name: redis
